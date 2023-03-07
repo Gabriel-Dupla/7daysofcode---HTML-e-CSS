@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Krona+One&family=Montserrat:wght@100;400&display=swap');
+
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --font-weight: 600;
+}
+
+body {
+    font-family: 'Inter', sans-serif
+
+}
+
 .cabecalho {
     display: flex;
     flex-direction: column;
@@ -22,23 +35,125 @@
     align-items: center;
     font-size: 16px;
     line-height: 24px;
-    color: #667085;
+    color: var(--text-color);
     text-decoration: none;
     
 }
 
 .cabecalho__menu__login {
     margin-left: 340px;
-    color: #667085;
+    color: var(--text-color);
     background-color: white;
     border: 0px;
 }
 
 .cabecalho__menu__cadastro {
-    background: #8E2424;
-    border: 1px solid #8E2424;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
     color:white;
     border-radius: 8px;
     padding: 10px 18px;
+
+}
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0;
+    gap: 1rem;
+
+}
+
+.introducao__sobre {
+    color: var(--main-color);
+    font-weight: var(--font-weight);
+    font-size: 13px;
+
+}
+
+.introducao__titulo {
+    font-size: 40px;
+    font-weight: var(--font-weight);
+    
+}
+
+.introducao__texto {
+    color: var(--text-color);
+    max-width: 50%;
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+.metricas {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.metricas__itens {
+
+
+    
+}
+
+.metricas__itens__numeros {
+    color: var(--main-color);
+    font-weight: var(--font-weight);
+    font-size: 60px;
+
+}
+
+.metricas__itens__titulo {
+    font-weight: var(--font-weight);
+
+}
+
+.metricas__itens__texto {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    
+    
+}
+
+::-webkit-scrollbar-track{
+    background-color: white;
+
+}
+
+::-webkit-scrollbar-button{
+    background-color: var(--main-color);
+	border-radius: 10px;
+	border-style: inset;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--text-color);
+    border-radius: 10px;
+	border-style: double;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #687d9e;
 
 }
