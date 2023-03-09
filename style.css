@@ -75,6 +75,7 @@ body {
 .introducao__titulo {
     font-size: 40px;
     font-weight: var(--font-weight);
+  
     
 }
 
@@ -94,7 +95,7 @@ body {
 }
 
 .metricas__itens {
-
+    max-width: 280px;
 
     
 }
@@ -103,17 +104,20 @@ body {
     color: var(--main-color);
     font-weight: var(--font-weight);
     font-size: 60px;
+    padding-bottom: 1rem;
 
 }
 
 .metricas__itens__titulo {
-    font-weight: var(--font-weight);
-
+    padding-bottom: 1.2rem;
+    color: #101828;
+    font-weight: 600;
 }
 
 .metricas__itens__texto {
-
-
+    color: var(--text-color);
+    font-size: 0.9rem;
+    max-width: 10rem;
 }
 
 
