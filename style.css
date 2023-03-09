@@ -21,7 +21,8 @@ body {
 .cabecalho__menu {
     display: flex;
     padding: 0px 32px;
-    gap: 40px;
+    gap: 1.69rem;
+    white-space: nowrap;
 
 }
 
@@ -33,10 +34,10 @@ body {
 .cabecalho__menu__link {
     display: flex;
     align-items: center;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 0.8rem;
     color: var(--text-color);
     text-decoration: none;
+ 
     
 }
 
@@ -91,12 +92,12 @@ body {
     display:flex;
     justify-content: space-evenly;
     align-items: flex-start;
+    padding-bottom: 6rem;
 
 }
 
 .metricas__itens {
     max-width: 280px;
-
     
 }
 
@@ -120,10 +121,51 @@ body {
     max-width: 10rem;
 }
 
+.vagas {
+    padding-top: 6rem;
 
 
+}
 
+.vagas__descricao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 
+}
+
+.vagas__descricao__marca {
+    padding: 2rem
+
+}
+
+.vagas__descricao__marca__texto {
+    color: var(--main-color);
+    background-origin: padding-box;
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 2rem;
+    padding: 0.25rem 0.75rem;
+    
+}
+
+.vagas__descricao__titulo {
+    font-size: 2.25rem;
+    font-weight: var(--font-weight);
+    letter-spacing: -0.02rem;
+    padding-bottom: 1.25rem;
+
+}
+
+.vagas__descricao__texto {
+    color: var(--text-color);
+    padding-bottom: 4rem;
+
+}
+
+.vagas__descricao__imagem { 
+    border-radius: 10px;
+
+}
 
 
 
