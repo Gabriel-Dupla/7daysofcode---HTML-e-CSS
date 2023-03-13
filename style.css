@@ -231,6 +231,31 @@ body {
 
 }
 
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 7rem 6rem;
+
+}
+
+.depoimentos__intro {
+    
+
+}
+
+.depoimentos__titulo {
+
+
+
+}
+
+.depoismentos__avatar {
+
+
+
+}
+
+
 
 
 
