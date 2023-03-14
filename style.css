@@ -283,10 +283,50 @@ body {
 
 }
 
+.notifica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+
+}
+
+.notifica__titulo {
+    font-weight: var(--font-weight);
+    font-size: 2rem;
+    padding-bottom: 1.50rem;
+
+}
+
+.notifica__texto {
+    color: var(--text-color);
+    padding-bottom: 2.5rem;
+
+}
+
+.notifica__email {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 2rem;
+    gap: 1rem;
 
 
+}
+
+.notifica__email__box {
+    padding: 0.75rem 5rem 0.5rem 1rem;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 0.5rem;
 
 
+}
+
+.notifica__direitos {
+    color: #98A2B3;
+
+}
 
 
 ::-webkit-scrollbar{
